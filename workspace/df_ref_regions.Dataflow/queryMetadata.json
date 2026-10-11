@@ -1,0 +1,29 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "df_ref_regions",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "postal_regions_csv": {
+      "queryId": "1a0349ba-10c7-43ba-a627-f6c552eb707d",
+      "queryName": "postal_regions_csv",
+      "loadEnabled": false
+    },
+    "postal_regions_csv_DataDestination": {
+      "queryId": "907dbfdd-8db5-47b7-a19d-3d61de2cffbc",
+      "queryName": "postal_regions_csv_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"0a91b110-e886-405e-b3ec-cf31e8067fc9\",\"DatasourceId\":\"444e9817-fe6a-47c1-8df1-9dce9d235a1f\"}"
+    }
+  ]
+}
