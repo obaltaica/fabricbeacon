@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ref",
+    "path": "/Files",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Files/ref",
+        "itemId": "4e238a50-a1c5-47a1-b068-5a35d2749ec7",
+        "workspaceId": "cb9ef2a2-8192-44f4-8323-a47d473535df"
+      }
+    }
+  }
+]
